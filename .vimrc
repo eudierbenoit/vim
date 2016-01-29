@@ -10,3 +10,6 @@ set encoding=utf-8
 "remap some keys
 let mapleader = "\<Space>"
 inoremap jk <ESC>
+
+"execute . in the selection
+vnoremap . :norm.<CR>
